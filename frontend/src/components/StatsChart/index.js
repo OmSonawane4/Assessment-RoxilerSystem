@@ -20,7 +20,7 @@ export function StatsChart({ itemPriceRange, monthName }) {
   return (
     <div className="chart-container">
       <h2>
-        <u>Bar Charts Stats</u> - <i style={{ color: "green" }}>{monthName}</i>
+        <u>Bar Charts Stats</u> - {monthName}
       </h2>
       <ResponsiveContainer width="70%">
         <BarChart

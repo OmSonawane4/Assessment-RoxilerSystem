@@ -1,5 +1,5 @@
 
-### Roxiler System Assessment Frontend-Backend ###
+# Roxiler System Assessment
 
 Backend Task
 Data Source
@@ -7,7 +7,7 @@ THIRD PARTY API URL : https://s3.amazonaws.com/roxiler.com/product_transaction.j
 REQUEST METHOD : GET
 RESPONSE FORMAT : JSON
 
-<hr/>
+
 
 GET
 Create API to initialize the database. fetch the JSON from the third party API and
@@ -95,5 +95,5 @@ the selected month irrespective of the year using API
 - Month selected from dropdown (above the table) should be applied here
 
 
-https://github.com/Mrinalummadising/Roxiler-System-assessment/assets/138893163/bed6ae89-9c36-4eab-8d35-a66cc38f4e43
+
 

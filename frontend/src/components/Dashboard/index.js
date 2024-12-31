@@ -160,7 +160,7 @@ class Dashboard extends Component {
                     />
                   </td>
                   <td className="sold-status">
-                    {each.sold ? "✅" : undefined}
+                    {each.sold ? "sold" : undefined}
                   </td>
                 </tr>
               );

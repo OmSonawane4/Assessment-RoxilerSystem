@@ -8,27 +8,13 @@ import {
 } from "recharts";
 import "./index.css";
 
-/*const data = [
-  {
-    count: 809680,
-    language: "Telugu",
-  },
-  {
-    count: 4555697,
-    language: "Hindi",
-  },
-  {
-    count: 12345657,
-    language: "English",
-  },
-];*/
 
 export default function CategoryChart({ monthName, categories }) {
   console.log(categories);
   return (
     <div className="category-chart-container">
       <h2>
-        <u>Unique Category Chart</u> - <b style={{ color: "green" }}>{monthName}</b>
+        <u>Unique Category Chart</u> - {monthName}
       </h2>
       <ResponsiveContainer
         width="50%"

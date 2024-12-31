@@ -4,7 +4,7 @@ export default function TransactionsStatistics({ statistics, monthName }) {
   return (
     <section className="transactions-statistics">
       <h2 className="statistics-title">
-        <u>Statistics</u> - <i style={{color: 'green'}}>{monthName}</i>
+        <u>Statistics</u> - {monthName}
       </h2>
       <div className="statistics-container">
         <div className="statistics-item">
